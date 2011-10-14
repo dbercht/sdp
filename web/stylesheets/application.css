@@ -2,6 +2,14 @@ body{
 	font-size: .8em;
 }
 
+img{
+ border: none;
+}
+
+p{
+	margin: 5px;
+}
+
 .clear{
 	clear: both;
 }

@@ -9,7 +9,8 @@
 		<script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
 		<script>
 			jQuery(document).ready(function(){
-				jQuery('body').makeSite();
+				jQuery("body").makeSite();
+				jQuery("#project").tabs();
 			});
 		</script>
 	</head>
@@ -22,7 +23,20 @@
 		<div id="sidebar"></div>
 		<!-- content div -->
 		<div id="content">
-			<p>Welcome to the website for Team Ganz 2012</p>
+			<div id="project">
+				<ul>
+					<li><a href="#welcome">Welcome</a></li>
+					<li><a href="#overview">Overview</a></li>
+				</ul>
+				<div id="overview">
+				</div>
+				<div id="welcome">
+					<p align='center'>Welcome to the website for Project ARhT, SDP Team Ganz 2012.</p>
+					<div style="width:410px;margin: 0px auto;" ><img src="images/logo.gif" style="margin: 0px auto;"/>
+					</div>
+				</div>
+				<div class="clear" />
+			</div>
 		</div>
 	</div>
 <!--

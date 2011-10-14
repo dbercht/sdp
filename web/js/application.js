@@ -42,14 +42,17 @@
 	$.fn.header = function () {
 		this.text("");
 		var banner = jQuery("<img />");
+		banner.attr("src", "images/logo.gif");
+		banner.attr("width", "100");
+		banner.addClass("banner");
 		var lineBreak = jQuery("<br />");
 		var titleText = jQuery("<a />");
+		banner.appendTo(titleText);
 		titleText.attr("href", docRoot() + "/index.html");
-		titleText.text(title);	
+		//titleText.text(title);	
 		titleText.button();
 		titleText.appendTo(this);
-		lineBreak.appendTo(this);
-		banner.appendTo(this);
+	//	lineBreak.appendTo(this);
 	};
 
 	//SideBar plugin
