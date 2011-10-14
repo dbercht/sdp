@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>Team Ganz 2012</title>
+		<link type="text/css" href="stylesheets/jquery-ui-1.8.16.custom.css" rel="stylesheet" />	
+		<link type="text/css" href="stylesheets/application.css" rel="stylesheet" />	
+		<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+		<script type="text/javascript" src="js/application.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
+		<script>
+			jQuery(document).ready(function(){
+				jQuery("body").makeSite();
+				jQuery("#documents div li a").button();
+				jQuery("#documents").tabs();
+			});
+		</script>
+	</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h2>Team Ganz 2012</h2>
+		</div>
+		<!-- sidebar div -->
+		<div id="sidebar"></div>
+		<!-- content div -->
+		<div id="content">
+			<div id="documents">
+				<ul>
+					<li><a href="#presentations">Presentations</a></li>
+					<li><a href="#diagrams">Diagrams</a></li>
+					<li><a href="#reports">Reports</a></li>
+				</ul>
+				<div id="presentations">
+					<ul>
+						<li><a>PDR</a></li>
+						<li><a>MDR</a></li>
+					</ul>
+				</div>
+				<div id="diagrams">
+					<ul>
+						<li><a>Block Diagram</a></li>
+					</ul>
+				</div>
+				<div id="reports">
+					<ul>
+						<li><a>Reports</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--
+<img src="images/team ganz img.gif" />
+-->
+<div class="clear" />
+<div id="footer" />
+</body>
+</html>

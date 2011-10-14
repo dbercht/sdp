@@ -1,0 +1,73 @@
+body{
+	font-size: .8em;
+}
+
+.clear{
+	clear: both;
+}
+
+#container{
+	margin: 5px auto;
+	width: 900px;
+}
+
+#header{
+	text-align: center;
+}
+
+#sidebar {
+	float: left;
+	width: 220px;
+	margin-bottom: 10px;
+}
+
+#sidebar ul{
+	list-style: none;
+}
+
+#sidebar ul a{
+	width: 200px;
+	}
+
+#content{
+	margin: 10px;
+	float: right;
+	width: 640px;
+	padding: 5px;
+}
+
+#content h2{
+	text-align: center;
+}
+
+#content h3{
+	text-align: center;
+}
+
+#team{
+}
+
+#team div img{
+	float: left;
+}
+
+#documents div ul{
+	list-style: none;
+	font-size: .8em;
+	width: 220px;
+	margin: 0px auto;
+}
+
+#documents div ul li a{
+	width: 210px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#footer{
+	width: 900px;
+	font-size: .8em;
+	margin: 5px auto;
+	text-align: center;
+	
+}
