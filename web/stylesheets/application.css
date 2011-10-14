@@ -17,6 +17,11 @@ p{
 #container{
 	margin: 5px auto;
 	width: 900px;
+	height: 400px;
+}
+
+#container #content div{
+	height: 100%;
 }
 
 #header{
